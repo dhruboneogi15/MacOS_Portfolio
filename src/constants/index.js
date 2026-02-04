@@ -44,7 +44,7 @@ const dockApps = [
     },
     {
         id: "safari",
-        name: "Articles", // was "Safari"
+        name: "Competitive programming",
         icon: "safari.png",
         canOpen: true,
     },
@@ -74,55 +74,55 @@ const dockApps = [
     },
 ];
 
-const blogPosts = [
+const codingProfiles = [
     {
         id: 1,
-        date: "Sep 2, 2025",
+        date: "Sep 24, 2023",
         title:
-            "TypeScript Explained: What It Is, Why It Matters, and How to Master It",
-        image: "/images/blog1.png",
-        link: "https://jsmastery.com/blog/typescript-explained-what-it-is-why-it-matters-and-how-to-master-it",
+            "Codeforces profile",
+        image: "/images/codeforces.png",
+        link: "https://codeforces.com/profile/controlling_conflict#",
     },
     {
         id: 2,
-        date: "Aug 28, 2025",
-        title: "The Ultimate Guide to Mastering Three.js for 3D Development",
-        image: "/images/blog2.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-three-js-for-3d-development",
+        date: "Feb 19, 2022",
+        title: "Leetcode profile",
+        image: "/images/leetcode.png",
+        link: "https://leetcode.com/u/dhruboneogi10/",
     },
     {
         id: 3,
-        date: "Aug 15, 2025",
-        title: "The Ultimate Guide to Mastering GSAP Animations",
-        image: "/images/blog3.png",
-        link: "https://jsmastery.com/blog/the-ultimate-guide-to-mastering-gsap-animations",
+        date: "Jan 3, 2026",
+        title: "Atcoder profile",
+        image: "/images/atcoder.png",
+        link: "https://atcoder.jp/users/GrindForMaster",
     },
 ];
 
 const techStack = [
     {
         category: "Frontend",
-        items: ["React.js", "Next.js", "TypeScript"],
+        items: ["React.js", "HTML", "Javascript"],
     },
     {
-        category: "Mobile",
-        items: ["React Native", "Expo"],
+        category: "Programming Languages",
+        items: ["C", "C++", "Python"],
     },
     {
         category: "Styling",
-        items: ["Tailwind CSS", "Sass", "CSS"],
+        items: ["Tailwind CSS", "CSS"],
     },
     {
         category: "Backend",
-        items: ["Node.js", "Express", "NestJS", "Hono"],
+        items: ["Java", "Spring Boot", "Node.js", "Express"],
     },
     {
         category: "Database",
-        items: ["MongoDB", "PostgreSQL"],
+        items: ["MongoDB", "SQL"],
     },
     {
         category: "Dev Tools",
-        items: ["Git", "GitHub", "Docker"],
+        items: ["Git", "GitHub", "Docker", "Kubernetes"],
     },
 ];
 
@@ -132,28 +132,28 @@ const socials = [
         text: "Github",
         icon: "/icons/github.svg",
         bg: "#f4656b",
-        link: "https://github.com/JavaScript-Mastery-Pro",
+        link: "https://github.com/dhruboneogi15",
     },
     {
         id: 2,
-        text: "Platform",
-        icon: "/icons/atom.svg",
+        text: "Codeforces Grind",
+        icon: "/icons/codeforces.svg",
         bg: "#4bcb63",
-        link: "https://jsmastery.com/",
+        link: "https://codeforces.com/profile/kemon_acho",
     },
     {
         id: 3,
-        text: "Twitter/X",
-        icon: "/icons/twitter.svg",
+        text: "Gmail",
+        icon: "/icons/gmail.svg",
         bg: "#ff866b",
-        link: "https://x.com/jsmasterypro",
+        link: "https://mail.google.com/mail/?view=cm&fs=1&to=dhruboneogi10@gmail.com",
     },
     {
         id: 4,
         text: "LinkedIn",
         icon: "/icons/linkedin.svg",
         bg: "#05b6f6",
-        link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+        link: "https://www.linkedin.com/in/neogi-dhrubajyoti/",
     },
 ];
 
@@ -208,7 +208,7 @@ export {
     navLinks,
     navIcons,
     dockApps,
-    blogPosts,
+    codingProfiles,
     techStack,
     socials,
     photosLinks,
@@ -225,7 +225,7 @@ const WORK_LOCATION = {
         // ▶ Project 1
         {
             id: 5,
-            name: "Nike Ecommerce Website Application",
+            name: "Express Tracker Application",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-5", // icon position inside Finder
@@ -233,30 +233,30 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Nike Project.txt",
+                    name: "Expense-Tracker Project.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-                        "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-                        "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-                        "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+                        "A full-stack Expense Tracker application built with Spring Boot, MySQL, and JavaScript." ,
+                        "Users can register, log in, add transactions, and view dynamic reports for expenses, income, and balances.",
+                        "RESTful APIs are used for authentication and transaction management.",
+                        "Static HTML pages with CSS for styling and Javascript functionality are used along with responsive forms."
                     ],
                 },
                 {
                     id: 2,
-                    name: "nike.com",
+                    name: "express-tracker-2.png",
                     icon: "/images/safari.png",
                     kind: "file",
-                    fileType: "url",
-                    href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+                    fileType: "img",
                     position: "top-10 right-20",
+                    imageUrl: "/images/project-1-2.png",
                 },
                 {
                     id: 4,
-                    name: "nike.png",
+                    name: "express-tracker.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
@@ -278,7 +278,7 @@ const WORK_LOCATION = {
         // ▶ Project 2
         {
             id: 6,
-            name: "AI Resume Analyzer",
+            name: "ResuMate",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-52 right-80",
@@ -286,7 +286,7 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "AI Resume Analyzer Project.txt",
+                    name: "ResuMate Project.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
@@ -295,21 +295,21 @@ const WORK_LOCATION = {
                         "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
                         "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
                         "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-                        "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+                        "It's built with React Router, Typescript and Puter, so it runs fast, looks professional, and works seamlessly on any device.",
                     ],
                 },
                 {
                     id: 2,
-                    name: "ai-resume-analyzer.com",
+                    name: "ResuMate.com",
                     icon: "/images/safari.png",
                     kind: "file",
-                    fileType: "url",
-                    href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+                    fileType: "img",
                     position: "top-20 left-20",
+                    imageUrl: "/images/project-2-2.png",
                 },
                 {
                     id: 4,
-                    name: "ai-resume-analyzer.png",
+                    name: "ResuMate.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
@@ -331,7 +331,7 @@ const WORK_LOCATION = {
         // ▶ Project 3
         {
             id: 7,
-            name: "Food Delivery App",
+            name: "Amazon Clone",
             icon: "/images/folder.png",
             kind: "folder",
             position: "top-10 left-80",
@@ -339,35 +339,35 @@ const WORK_LOCATION = {
             children: [
                 {
                     id: 1,
-                    name: "Food Delivery App Project.txt",
+                    name: "Amazon Clone.txt",
                     icon: "/images/txt.png",
                     kind: "file",
                     fileType: "txt",
                     position: "top-5 left-10",
                     description: [
-                        "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-                        "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-                        "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-                        "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+                        "Amazon clone delivers a clean, responsive user interface for browsing products and categories effortlessly.",
+                        "We can place orders, remove them, and also track our order in real time.",
+                        "The shopping cart and checkout flows are designed for smooth, intuitive user interactions.",
+                        "It is built with Javascript and features dynamic product listings, real-time search and filtering, and responsive product detail pages",
                     ],
                 },
                 {
                     id: 2,
-                    name: "food-delivery-app.com",
+                    name: "amazon_clone.com",
                     icon: "/images/safari.png",
                     kind: "file",
-                    fileType: "url",
-                    href: "https://youtu.be/LKrX390fJMw?si=cExkuVhf2DTV9G2-",
+                    fileType: "img",
                     position: "top-10 right-20",
+                    imageUrl: "/images/project-3.png"
                 },
                 {
                     id: 4,
-                    name: "food-delivery-app.png",
+                    name: "amazon_clone.png",
                     icon: "/images/image.png",
                     kind: "file",
                     fileType: "img",
                     position: "top-52 right-80",
-                    imageUrl: "/images/project-3.png",
+                    imageUrl: "/images/project-3-2.png",
                 },
                 {
                     id: 5,
@@ -397,7 +397,7 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-10 left-5",
-            imageUrl: "/images/adrian.jpg",
+            imageUrl: "/images/dhrubajyoti.jpg",
         },
         {
             id: 2,
@@ -406,31 +406,22 @@ const ABOUT_LOCATION = {
             kind: "file",
             fileType: "img",
             position: "top-28 right-72",
-            imageUrl: "/images/adrian-2.jpg",
+            imageUrl: "/images/gal1.png",
         },
         {
             id: 3,
-            name: "conference-me.png",
-            icon: "/images/image.png",
-            kind: "file",
-            fileType: "img",
-            position: "top-52 left-80",
-            imageUrl: "/images/adrian-3.jpeg",
-        },
-        {
-            id: 4,
             name: "about-me.txt",
             icon: "/images/txt.png",
             kind: "file",
             fileType: "txt",
             position: "top-60 left-5",
             subtitle: "Meet the Developer Behind the Code",
-            image: "/images/adrian.jpg",
+            image: "/images/dhrubajyoti.jpg",
             description: [
-                "Hey! I’m Adrian 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
-                "I specialize in JavaScript, React, and Next.js—and I love making things feel smooth, fast, and just a little bit delightful.",
-                "I’m big on clean UI, good UX, and writing code that doesn’t need a search party to debug.",
-                "Outside of dev work, you'll find me tweaking layouts at 2AM, sipping overpriced coffee, or impulse-buying gadgets I absolutely convinced myself I needed 😅",
+                "Hey! I’m Dhrubajyoti 👋, a web developer who enjoys building sleek, interactive websites that actually work well.",
+                "I’m a passionate software developer with a strong interest in building clean, user-friendly web applications.",
+                "I like solving problems, learning new tools, and improving my code every day",
+                "I’m always excited to take on new challenges and grow as a developer.",
             ],
         },
     ],
